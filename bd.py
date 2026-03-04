@@ -5,11 +5,11 @@ def crear_base_de_datos():
     cursor = conexion.cursor()
 
     sql = """
-    CREATE TABLE IF NOT EXISTS usuarios (
+    DROP TABLE IF NOT EXISTS usuarios (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         email TEXT NOT NULL UNIQUE,
         password TEXT NOT NULL,
-        role TEXT DEFAULT 'cliente'
+        role TEXT NOT NULL
     )
     """
 
