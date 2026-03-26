@@ -9,3 +9,87 @@
 2026-03-16 19:28:03,309 - INFO - Intento de registro para email: logstest.com
 2026-03-16 19:28:03,742 - INFO - Usuario registrado correctamente: logstest.com
 2026-03-16 19:28:03,742 - INFO - 127.0.0.1 - - [16/Mar/2026 19:28:03] "[35m[1mPOST /registro HTTP/1.1[0m" 201 -
+2026-03-25 22:16:56,514 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-25 22:16:56,515 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-25 22:16:56,526 - INFO -  * Restarting with stat
+2026-03-25 22:16:57,134 - WARNING -  * Debugger is active!
+2026-03-25 22:16:57,149 - INFO -  * Debugger PIN: 921-653-014
+2026-03-25 22:20:51,675 - INFO - Evento: Nuevo usuario registrado con éxito - Email: Lasttest.com
+2026-03-25 22:20:51,677 - INFO - 127.0.0.1 - - [25/Mar/2026 22:20:51] "[35m[1mPOST /registro HTTP/1.1[0m" 201 -
+2026-03-25 22:27:05,411 - ERROR - Error de BD: Intento de registro con email duplicado - Email: Lasttest.com
+2026-03-25 22:27:05,412 - INFO - 127.0.0.1 - - [25/Mar/2026 22:27:05] "[31m[1mPOST /registro HTTP/1.1[0m" 400 -
+2026-03-25 22:27:32,012 - WARNING - Intento de registro fallido: Faltan datos.
+2026-03-25 22:27:32,012 - INFO - 127.0.0.1 - - [25/Mar/2026 22:27:32] "[31m[1mPOST /registro HTTP/1.1[0m" 400 -
+2026-03-25 22:28:17,187 - INFO - 127.0.0.1 - - [25/Mar/2026 22:28:17] "[31m[1mPUT /login HTTP/1.1[0m" 405 -
+2026-03-25 22:28:38,073 - INFO - 127.0.0.1 - - [25/Mar/2026 22:28:38] "[31m[1mPUT /login HTTP/1.1[0m" 405 -
+2026-03-25 22:28:51,603 - WARNING - Seguridad: Intento de login fallido - Email: fuck1234@gmail@gmail.com
+2026-03-25 22:28:51,603 - INFO - 127.0.0.1 - - [25/Mar/2026 22:28:51] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-03-25 22:37:10,819 - INFO - 127.0.0.1 - - [25/Mar/2026 22:37:10] "[35m[1mPOST /registro HTTP/1.1[0m" 500 -
+2026-03-25 22:40:15,924 - INFO -  * Detected change in 'C:\\Users\\mrcre\\OneDrive\\Documentos\\UNI\\UTTAB\\ING II\\MóduloRegistoSeguro_C,G,G.G\\app.py', reloading
+2026-03-25 22:40:16,131 - INFO -  * Restarting with stat
+2026-03-25 22:40:18,433 - WARNING -  * Debugger is active!
+2026-03-25 22:40:18,438 - INFO -  * Debugger PIN: 921-653-014
+2026-03-25 22:43:52,941 - INFO -  * Detected change in 'C:\\Users\\mrcre\\OneDrive\\Documentos\\UNI\\UTTAB\\ING II\\MóduloRegistoSeguro_C,G,G.G\\app.py', reloading
+2026-03-25 22:43:53,038 - INFO -  * Restarting with stat
+2026-03-25 22:43:53,962 - WARNING -  * Debugger is active!
+2026-03-25 22:43:53,967 - INFO -  * Debugger PIN: 921-653-014
+2026-03-25 22:44:35,752 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-25 22:44:35,752 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-25 22:44:35,754 - INFO -  * Restarting with stat
+2026-03-25 22:44:36,488 - WARNING -  * Debugger is active!
+2026-03-25 22:44:36,493 - INFO -  * Debugger PIN: 921-653-014
+2026-03-25 22:52:55,393 - INFO -  * Detected change in 'C:\\Users\\mrcre\\OneDrive\\Documentos\\UNI\\UTTAB\\ING II\\MóduloRegistoSeguro_C,G,G.G\\app.py', reloading
+2026-03-25 22:52:55,724 - INFO -  * Restarting with stat
+2026-03-25 22:52:56,646 - WARNING -  * Debugger is active!
+2026-03-25 22:52:56,650 - INFO -  * Debugger PIN: 921-653-014
+2026-03-25 22:53:07,504 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-25 22:53:07,505 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-25 22:53:07,506 - INFO -  * Restarting with stat
+2026-03-25 22:53:08,089 - WARNING -  * Debugger is active!
+2026-03-25 22:53:08,092 - INFO -  * Debugger PIN: 921-653-014
+2026-03-25 22:53:18,561 - DEBUG - DEBUG: Procesando solicitud de login.
+2026-03-25 22:53:18,565 - WARNING - WARNING: Intento de acceso fallido para fuck1234@gmail@gmail.com.
+2026-03-25 22:53:18,566 - INFO - 127.0.0.1 - - [25/Mar/2026 22:53:18] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-03-25 22:59:52,859 - INFO - 127.0.0.1 - - [25/Mar/2026 22:59:52] "[33mPOST /publicar_articulo HTTP/1.1[0m" 404 -
+2026-03-25 23:04:25,308 - INFO - 127.0.0.1 - - [25/Mar/2026 23:04:25] "[33mPUT /actualizar HTTP/1.1[0m" 404 -
+2026-03-25 23:09:43,010 - INFO -  * Detected change in 'C:\\Users\\mrcre\\OneDrive\\Documentos\\UNI\\UTTAB\\ING II\\MóduloRegistoSeguro_C,G,G.G\\app.py', reloading
+2026-03-25 23:09:43,115 - INFO -  * Restarting with stat
+2026-03-25 23:09:43,799 - WARNING -  * Debugger is active!
+2026-03-25 23:09:43,804 - INFO -  * Debugger PIN: 921-653-014
+2026-03-25 23:09:53,900 - INFO - INFO: Solicitud de modificación para Lasttest@gmail.com
+2026-03-25 23:09:53,901 - ERROR - ERROR: Fallo actualización. Lasttest@gmail.com no existe.
+2026-03-25 23:09:53,902 - INFO - 127.0.0.1 - - [25/Mar/2026 23:09:53] "[33mPUT /actualizar HTTP/1.1[0m" 404 -
+2026-03-25 23:10:26,635 - INFO - INFO: Solicitud de modificación para Lasttest@.com
+2026-03-25 23:10:26,637 - ERROR - ERROR: Fallo actualización. Lasttest@.com no existe.
+2026-03-25 23:10:26,638 - INFO - 127.0.0.1 - - [25/Mar/2026 23:10:26] "[33mPUT /actualizar HTTP/1.1[0m" 404 -
+2026-03-25 23:10:59,169 - INFO - INFO: Solicitud de modificación para Lasttest.com
+2026-03-25 23:10:59,171 - CRITICAL - CRITICAL: CAMBIO DE ROL PARA Lasttest.com A admin
+2026-03-25 23:10:59,181 - INFO - INFO: Usuario Lasttest.com actualizado correctamente.
+2026-03-25 23:10:59,182 - INFO - 127.0.0.1 - - [25/Mar/2026 23:10:59] "PUT /actualizar HTTP/1.1" 200 -
+2026-03-25 23:11:41,540 - WARNING - WARNING: Token expirado presentado.
+2026-03-25 23:11:41,541 - INFO - 127.0.0.1 - - [25/Mar/2026 23:11:41] "[31m[1mPOST /publicar_articulo HTTP/1.1[0m" 401 -
+2026-03-25 23:12:04,273 - INFO - 127.0.0.1 - - [25/Mar/2026 23:12:04] "[31m[1mPUT /login HTTP/1.1[0m" 405 -
+2026-03-25 23:12:14,279 - DEBUG - DEBUG: Intento de login en curso.
+2026-03-25 23:12:14,284 - WARNING - WARNING: Login fallido para Ltest.com
+2026-03-25 23:12:14,285 - INFO - 127.0.0.1 - - [25/Mar/2026 23:12:14] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-03-25 23:12:22,183 - DEBUG - DEBUG: Intento de login en curso.
+2026-03-25 23:12:22,569 - INFO - INFO: Login exitoso para Lasttest.com
+2026-03-25 23:12:22,570 - INFO - 127.0.0.1 - - [25/Mar/2026 23:12:22] "POST /login HTTP/1.1" 200 -
+2026-03-25 23:12:42,927 - WARNING - WARNING: Formato de token inválido enviado.
+2026-03-25 23:12:42,928 - INFO - 127.0.0.1 - - [25/Mar/2026 23:12:42] "[31m[1mPOST /publicar_articulo HTTP/1.1[0m" 401 -
+2026-03-25 23:12:54,507 - WARNING - WARNING: Intento de acceso sin token.
+2026-03-25 23:12:54,507 - INFO - 127.0.0.1 - - [25/Mar/2026 23:12:54] "[31m[1mPOST /publicar_articulo HTTP/1.1[0m" 401 -
+2026-03-25 23:13:04,400 - DEBUG - DEBUG: Admin Lasttest.com intentando registrar artículo.
+2026-03-25 23:13:04,419 - INFO - INFO: Artículo 'test' registrado por Lasttest.com
+2026-03-25 23:13:04,420 - INFO - 127.0.0.1 - - [25/Mar/2026 23:13:04] "[35m[1mPOST /publicar_articulo HTTP/1.1[0m" 201 -
+2026-03-25 23:13:58,951 - INFO - INFO: Solicitud de modificación para Lasttest.com
+2026-03-25 23:13:59,348 - CRITICAL - CRITICAL: CAMBIO DE ROL PARA Lasttest.com A admin
+2026-03-25 23:13:59,353 - INFO - INFO: Usuario Lasttest.com actualizado correctamente.
+2026-03-25 23:13:59,354 - INFO - 127.0.0.1 - - [25/Mar/2026 23:13:59] "PUT /actualizar HTTP/1.1" 200 -
+2026-03-25 23:17:31,191 - INFO -  * Detected change in 'C:\\Users\\mrcre\\OneDrive\\Documentos\\UNI\\UTTAB\\ING II\\MóduloRegistoSeguro_C,G,G.G\\app.py', reloading
+2026-03-25 23:17:31,281 - INFO -  * Restarting with stat
+2026-03-25 23:17:32,317 - WARNING -  * Debugger is active!
+2026-03-25 23:17:32,322 - INFO -  * Debugger PIN: 921-653-014
