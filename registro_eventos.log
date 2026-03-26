@@ -1,0 +1,11 @@
+2026-03-16 19:24:27,078 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-16 19:24:27,079 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-16 19:24:27,092 - INFO -  * Restarting with stat
+2026-03-16 19:24:27,698 - WARNING -  * Debugger is active!
+2026-03-16 19:24:27,711 - INFO -  * Debugger PIN: 921-653-014
+2026-03-16 19:26:30,743 - INFO - 127.0.0.1 - - [16/Mar/2026 19:26:30] "[31m[1mPUT /login HTTP/1.1[0m" 405 -
+2026-03-16 19:27:21,178 - INFO - 127.0.0.1 - - [16/Mar/2026 19:27:21] "[31m[1mPUT /registro HTTP/1.1[0m" 405 -
+2026-03-16 19:28:03,309 - INFO - Intento de registro para email: logstest.com
+2026-03-16 19:28:03,742 - INFO - Usuario registrado correctamente: logstest.com
+2026-03-16 19:28:03,742 - INFO - 127.0.0.1 - - [16/Mar/2026 19:28:03] "[35m[1mPOST /registro HTTP/1.1[0m" 201 -
